@@ -3,4 +3,5 @@ A game similar to angry birds but with different type charges and electromagneti
 
 # Prerequisites:
 1- Anaconda 3
-2-pygame (install with "pip install pygame"
+
+2-pygame (install with "pip install pygame")
