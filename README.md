@@ -2,7 +2,7 @@
 
 A game similar to angry birds but instead of birds, different type of  charges and electromagnetic fields are used
 
-# Prerequisites:
+# Prerequisites
 
 1- Anaconda 3
 
