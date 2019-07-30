@@ -1,5 +1,6 @@
-# AngryCharges
-A game similar to angry birds but with different type charges and electromagnetic fields
+# ProjectDescription
+
+A game similar to angry birds but instead of birds, different type of  charges and electromagnetic fields are used
 
 # Prerequisites:
 
