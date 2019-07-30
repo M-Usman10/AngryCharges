@@ -7,4 +7,6 @@ A game similar to angry birds but with different type charges and electromagneti
 
 2- PyGame (install with "pip install pygame")
 
+# Workflow
+
 ![alt text](https://github.com/M-Usman10/AngryCharges/blob/master/ideas/workflow.png)
