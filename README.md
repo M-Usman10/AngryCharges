@@ -3,7 +3,7 @@
 A game similar to angry birds but instead of birds, different type of  charges and electromagnetic fields are used
 
 # Current Screen View
-![alt text]https://github.com/M-Usman10/AngryCharges/blob/master/resources/Backgrounds/Game_Bg-2.png
+![alt text](https://github.com/M-Usman10/AngryCharges/blob/master/resources/Backgrounds/Game_Bg-2.png)
 
 # Prerequisites
 
