@@ -1,30 +1,21 @@
-
-import pygame
-from pygame.locals import *
-from background import displayBackground
+from background import *
 from q_position import position_estimator
-# 2 - Initialize the game
+import time
 pygame.init()
-width, height = 1920, 1080
+width, height = 1060, 700
 screen=pygame.display.set_mode((width, height))
 
-# 3 - Load images
-box1 = pygame.image.load("resources/1.jpg")
-box2 = pygame.image.load("resources/2.jpg")
-
 p = ([0, 0, 0], [100, 0, 0])
-# 4 - keep looping through
 while 1:
-    # 5 - clear the screen before drawing it again
     screen.fill(0)
-    # 6 - draw the screen elements
-    # displayBackground(screen,box1,box2,width,height)
-    # 7 - update the screen
+    start_time = time.time() # start time of the loop
+    display_background(screen,"resources/Backgrounds/Game_Bg-2.png")
+
     p = position_estimator([10, 0, 0], [0, 0, 1], 1, p[0], p[1], 1, 0.01)
-    pygame.draw.circle(screen,[255,0,0],[int(p[0][0]+1920/2),int(p[0][1]+1080/2)],10)
+    pygame.draw.circle(screen,[255,0,0],[int(p[0][0]+width/2),int(p[0][1]+height/2)],10)
 
     pygame.display.flip()
-    # 8 - loop through the events
+    print("FPS: ", 1.0 / (time.time() - start_time)) # FPS = 1 / time to process loop
     for event in pygame.event.get():
         # check if the event is the X button
         if event.type==pygame.QUIT:
